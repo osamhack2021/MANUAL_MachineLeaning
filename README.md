@@ -64,10 +64,12 @@ $sudo conda install -c r -y conda python=3.6.2 pip=20.1.1
 
 ### 2. Github CodeSpace 에서 실행
 - MS에서 제공된 컨테이너 기반으로 Docker 빌드가 발생하며 학습해야하는 파일을 포함하여 Azure Machine Learing Service 에 제출 합니다.
+- Container 커스텀 빌드시 CUDA 버전 확인 바랍니다. 타켓 디바이스는 Nvidia V100 입니다.
 ![img_](https://user-images.githubusercontent.com/22819926/135014743-e79f1033-6be0-4b4d-8bc1-cc540e4a234e.png)
 
 ### 3. 실험 결과 확인 및 모델 파일 다운 로드
-- 각 팀마다 제공드린 Azure Machine Learing Service 유니크 URL 을 통해 실험내역과 모델 파일을 다운 받을 수 있습니다.
+- 각 팀마다 제공드린 Azure Machine Learing Service 유니크 URL 을 통해 실험내역과 모델 파일을 다운 받을 수 있습니다. (Jupyter 서버는 별도 제공하지 않습니다.)
+- 제공되는 클러스터 성능은  vCPU 6, 112GB RAM, 336GB Disk, Nvidia V100 입니다.
 ![img_](https://user-images.githubusercontent.com/22819926/135014746-a91426fa-112d-43d3-81af-cb214cd8c68c.png)
 ![img_](https://user-images.githubusercontent.com/22819926/135014744-d6c952e0-caa9-47ba-a211-227c66c2d406.png)
 ![img_](https://user-images.githubusercontent.com/22819926/135014739-fec505a6-7fd2-4938-95b8-675fc6427143.png)
