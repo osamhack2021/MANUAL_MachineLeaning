@@ -43,10 +43,10 @@ https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
 https://docs.microsoft.com/ko-kr/azure/machine-learning/how-to-train-pytorch
 
 2. Keras
-https://docs.microsoft.com/ko-kr/azure/machine-learning/how-to-train-tensorflow
+https://docs.microsoft.com/ko-kr/azure/machine-learning/how-to-train-keras
 
 3. TensorFlow
-https://docs.microsoft.com/ko-kr/azure/machine-learning/how-to-train-keras
+https://docs.microsoft.com/ko-kr/azure/machine-learning/how-to-train-tensorflow
 
 ## Github CodeSpace 구성
 ```
