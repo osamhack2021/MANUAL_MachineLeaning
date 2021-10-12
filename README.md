@@ -9,7 +9,7 @@
 1. test_azureml.py(실행 파일)
 - Azure Machine Learing 에 필요한 정보를 담고 있으며 pytorch_train.py 파일과 같은 학습과 관련된 알고리즘 파일을 컨테이너라이즈 하여 AzureML에 전달 합니다.
 
-```
+```python
 # test_azureml.py
 subscription_id = 'b6b856d1-f0e1-4d39-b0b3-4c2e1cd912cd' #예시 이며 각팀에 정보 전달 드렸습니다.
 resource_group  = 'OSAM2021_ML' #예시 이며 각팀에 정보 전달 드렸습니다.
